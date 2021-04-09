@@ -149,3 +149,29 @@ On crée un tableau ou une liste avec la parathèse et en mettant un espace entr
 2.  Pour remplacer un élément de la liste **nomlist[1]='Damaro'**
 3.  Pour récupérer la taille de la liste **${#nomliste}**
 4.  Pour récupérer touts les éléments de la liste: **${nomliste[\*]}**
+
+## Les boucles en bash
+les boucles fonctionnent à peu de la même manière en bash que les autres langages
+
+<code>
+    <pre>
+        liste=(Laby Damaro Camara Etudiant en Mastère pro Business Intelligence à l'ISET Radès)
+        for item in ${liste[*]}; do
+            echo $item
+        done
+        # ou bien avec la boucle while
+        i=0
+        while test "${#liste[@]} -gt $i; do
+            echo ${liste[i]}
+            i=$((i+1))
+        done
+
+        until test "${#liste[@]} -lt $i; do
+            echo ${liste[i]}
+            i=$((i+1))
+        done
+    </pre>
+</code>
+
+**Note:**
+A note que la boucle **until** et **while** fonctionnent en sens inverse, c'est à dire avec **while** **-gt** pour dire tant que la taille est supérieur i alors que avec **until** j'ai utilisé **-lt** pour dire la taille n'est pas inférieur à i on continue
