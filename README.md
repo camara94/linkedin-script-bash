@@ -100,3 +100,28 @@ Pour les opérateurs, je vous dirige vers ces documents très riche.
 6. [Les expressions entre doubles parenthèses](https://abs.traduc.org/abs-fr/ch08s03.html)
 7. [Opérations et sujets connexes 3](https://abs.traduc.org/abs-fr/ch08s04.html)
 8. [Une exploration en profondeur de l'art de la programmation shell](https://abs.traduc.org/abs-fr/pt03.html)
+   
+## Les conditions en bash
+Les conditions en bash se ressemblent beaucoup aux conditions rapport d'autres langages la syntaxe
+à la difference on remplace les parenthèses par le clé **test** ou **[   ]**
+
+<code>
+    <pre>
+        if test 18 -eq 18; then
+            echo "Vous êtes majeurs"
+        else
+            echo "Vous êtes mineurs"
+        fi
+        # ou
+        if [ 18 -eq 18 ]; then
+            echo "Vous êtes majeurs"
+        elif test 18 -lt 40; then
+            echo "Vous êtes vieux"
+        else
+            echo "Vous êtes mineurs"
+        fi
+    </pre>
+</code>
+
+<u>**NB:**</u>
+Lorsque vous utilisez les crochets, il ne faut surtout pas oublier de mettre un espace avant et après à l'intérieur avant de mettre les conditions
