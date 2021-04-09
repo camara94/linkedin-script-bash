@@ -74,3 +74,18 @@ avant de rentrer dans le scripting, nous allons présenter quelques paramètres 
         echo "Voici la liste des paramètres: $@"
     </pre>
 </code>
+
+## Les tests en bash
+Les tests sont réalisés en bash à l'aide de deux symbols à savoir le symbols: **test** ou **[  ]** pour faire la comparaison avec le signe égal, il faut entrourer le signe de deux espaces un avant et un après.
+
+Pour vérifier le succès ou l'echec de l'exécution d'un script, on evalue la valeur de la variable spéciale **$?**, si le contenu de cette variable est égal à 0 cela signifie que le script est exécuté avec succès sinon toute autre valeur signifie l'echec.
+
+<code>
+    <pre>
+        machin='truc'
+        echo $? # afficher 0 car la variable a bien  été affectée
+        # on peut comparer le contenu de deux variables avec <br />
+        test $machin = 'truc' # ou bien<br>
+        [ $machin = 'truc' ]
+    </pre>
+</code>
