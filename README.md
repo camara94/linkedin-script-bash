@@ -142,3 +142,10 @@ la condition selon ou **switch** est exprimé en bash avec les expressions suiva
         esac
     </pre>
 </code>
+
+## Les tableaux en bash
+On crée un tableau ou une liste avec la parathèse et en mettant un espace entre chaque élement de la liste.
+1. Pour récupérer un élément dans la liste **${nomlist[1]}**
+2.  Pour remplacer un élément de la liste **nomlist[1]='Damaro'**
+3.  Pour récupérer la taille de la liste **${#nomliste}**
+4.  Pour récupérer touts les éléments de la liste: **${nomliste[\*]}**
