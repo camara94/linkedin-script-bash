@@ -60,4 +60,17 @@ avant de rentrer dans le scripting, nous allons présenter quelques paramètres 
 5. **$#** retourne le nombre de paramètre d'un script
 6. **$@** retourne tous les paramètre sous forme d'une liste
 7. **$\*** retourne tous les paramètre sous forme d'une chaine de caractère.
-8. **shift** permet de supprimer le premier paramètre
+8. **shift** permet de supprimer le premier paramètre.
+   
+<code>
+    <pre>
+        #!/bin/bash
+        echo "Le script s'appelle: $0"
+        echo "Le premier paramètre: $1"
+        echo "Le deuxième paramètre: $2"
+        echo "Le troisième paramètre: $3"
+        echo "Le dixième paramètre: ${10}"
+        echo "Nous avons $# paramètre(s) passé à ce script"
+        echo "Voici la liste des paramètres: $@"
+    </pre>
+</code>
