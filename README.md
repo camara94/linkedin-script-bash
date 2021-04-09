@@ -125,3 +125,19 @@ Les conditions en bash se ressemblent beaucoup aux conditions rapport d'autres l
 
 <u>**NB:**</u>
 Lorsque vous utilisez les crochets, il ne faut surtout pas oublier de mettre un espace avant et après à l'intérieur avant de mettre les conditions
+
+## Les Switch en bash
+<code>
+    <pre>
+        case $1 in
+        "Camara")
+            echo "Bonjour Camara";;
+        "Laby")
+            echo "Bonjour Laby";;
+        "Damaro")
+            echo "Bonjour Damaro";;
+        *)
+            echo "Bonjour tout le monde";;
+        esac
+    </pre>
+</code>
