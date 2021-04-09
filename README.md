@@ -36,3 +36,17 @@ Exemple:
        echo ${message:4:2} # pour extraire deux caractères à partir la position 4 
     </pre>
 </code>
+
+## Les calculs arithmétiques en bash
+les calcules arithmétiques se font se font à l'aide de deux opérateurs en bash **$(())** &amp; **let**
+
+<code>
+    <pre>
+        #!/bin/bash
+        un=1
+        deux=2
+        trois=$((un + deux))
+        echo trois # affiche 3
+        let six=$trois*$deux ou let "six=$trois * $deux"
+    </pre>
+</code>
