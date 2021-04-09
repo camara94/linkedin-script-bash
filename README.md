@@ -89,3 +89,14 @@ Pour vérifier le succès ou l'echec de l'exécution d'un script, on evalue la v
         [ $machin = 'truc' ]
     </pre>
 </code>
+
+## Les  Opérateurs de comparaisons et logiques
+Pour les opérateurs, je vous dirige vers ces documents très riche.
+1. [Les opérateurs de comparaison](https://abs.traduc.org/abs-fr/ch07s03.html)
+2. [Les opérateurs de test de fichiers](https://abs.traduc.org/abs-fr/ch07s02.html)
+3. [Les tests if/then imbriqués](https://abs.traduc.org/abs-fr/ch07s04.html)
+4. [Les Opérations et sujets connexes 1](https://abs.traduc.org/abs-fr/ch08.html)
+5. [Opérations et sujets connexes 2](https://abs.traduc.org/abs-fr/ch08s02.html)
+6. [Les expressions entre doubles parenthèses](https://abs.traduc.org/abs-fr/ch08s03.html)
+7. [Opérations et sujets connexes 3](https://abs.traduc.org/abs-fr/ch08s04.html)
+8. [Une exploration en profondeur de l'art de la programmation shell](https://abs.traduc.org/abs-fr/pt03.html)
