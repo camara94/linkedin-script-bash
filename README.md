@@ -23,3 +23,16 @@ Exemple:
     echo ${message}cou # cette va afficher coucoucou
 </pre>
 </code>
+
+## Les fonctions spécials
+<code>
+    <pre>
+       #!/bin/bash 
+       message='coucou'
+       echo ${#message} # afficher la taille de la chaine
+       echo ${message^^} # affiche la chaine en majuscule
+       echo ${message,,} # affiche la chaine en miniscule
+       echo ${message/o/at} # remplacer la première occurence de o par at
+       echo ${message:4:2} # pour extraire deux caractères à partir la position 4 
+    </pre>
+</code>
