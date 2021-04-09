@@ -50,3 +50,14 @@ les calcules arithmétiques se font se font à l'aide de deux opérateurs en bas
         let six=$trois*$deux ou let "six=$trois * $deux"
     </pre>
 </code>
+
+## Les paramètres en bash
+avant de rentrer dans le scripting, nous allons présenter quelques paramètres spéciaux:
+1. **$0** retourne le nom du script
+2. **$1** retourne le premier paramètre du script
+3. **$2** retourne le deuxième paramètre du script etc jusqu'à \$9
+4. à partir de 10 il faut utiliser cette notation ${10}
+5. **$#** retourne le nombre de paramètre d'un script
+6. **$@** retourne tous les paramètre sous forme d'une liste
+7. **$\*** retourne tous les paramètre sous forme d'une chaine de caractère.
+8. **shift** permet de supprimer le premier paramètre
