@@ -8,3 +8,18 @@ exemple: <br />Erreur: <code><strike>message = 'Hello, World'</strike></code><br
 Bon: <code>message = 'Hello, World'</code><br/>
 Pour utiliser une variable il faut préceder son nom par le signe **$**<br />
 <code>echo $message</code>
+
+## Interpolation des variables en bash
+L'interpolation de variable consiste à interpréter une variable au sein d'une chaine de caractère.
+elle fait en bash via le signe **""** et non **''**
+soit le fichier **ex1.sh**<br/>
+Exemple:
+<code>
+<pre>
+    #!/bin/bash #Cette ligne est le shebang
+    message='coucou' #declaration et affectation de de variable
+    echo '$message salut mon ami' # cette ligne va afficher $message suivi du reste
+    echo "$message salut mon ami" # celle là va afficher la valeur de message suivi du reste
+    echo ${message}cou # cette va afficher coucoucou
+</pre>
+</code>
