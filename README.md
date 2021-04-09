@@ -1,0 +1,3 @@
+# Découvrir l'écriture de scripts en Bash
+
+Le Bash est un interpréteur de commandes très connu en Linux, mais il est également un puissant langage de script. Si vous êtes administrateur Linux et si vous voulez automatiser vos tâches et réaliser des scripts puissants, cette formation est faite pour vous. Avec Rudi Bruchez, découvrez comment recevoir et traiter les paramètres envoyés à vos scripts, et comment manipuler des variables. Vous apprendrez à maîtriser ce langage de programmation et à créer des boucles et des branchements.
