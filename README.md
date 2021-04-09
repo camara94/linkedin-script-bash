@@ -127,6 +127,7 @@ Les conditions en bash se ressemblent beaucoup aux conditions rapport d'autres l
 Lorsque vous utilisez les crochets, il ne faut surtout pas oublier de mettre un espace avant et après à l'intérieur avant de mettre les conditions
 
 ## Les Switch en bash
+la condition selon ou **switch** est exprimé en bash avec les expressions suivantes: **case ->switch; )->case; ;;->break; *)->default**.
 <code>
     <pre>
         case $1 in
